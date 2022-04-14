@@ -11,6 +11,14 @@
 		6B4891632804AB6E00E86054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4891622804AB6E00E86054 /* ContentView.swift */; };
 		6B4891652804AB7000E86054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4891642804AB7000E86054 /* Assets.xcassets */; };
 		6B4891682804AB7000E86054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4891672804AB7000E86054 /* Preview Assets.xcassets */; };
+		6BFBFBCA28058C14007B2DB8 /* RulerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBC928058C14007B2DB8 /* RulerOptionsView.swift */; };
+		6BFBFBCC28059852007B2DB8 /* RulerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBCB28059852007B2DB8 /* RulerSettingsView.swift */; };
+		6BFBFBCF2805ABC3007B2DB8 /* TemperatureOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBCE2805ABC3007B2DB8 /* TemperatureOptionsView.swift */; };
+		6BFBFBD22805AC0D007B2DB8 /* TemperatureSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBD12805AC0D007B2DB8 /* TemperatureSettingsView.swift */; };
+		6BFBFBD42805AC53007B2DB8 /* ClockOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBD32805AC53007B2DB8 /* ClockOptionsView.swift */; };
+		6BFBFBD62805AC8A007B2DB8 /* ClockSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBD52805AC8A007B2DB8 /* ClockSettingsView.swift */; };
+		6BFBFBD92805ACEF007B2DB8 /* DropOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBD82805ACEF007B2DB8 /* DropOptionsView.swift */; };
+		6BFBFBDB2805AD1E007B2DB8 /* DropSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBFBDA2805AD1E007B2DB8 /* DropSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		6B4891622804AB6E00E86054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B4891642804AB7000E86054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B4891672804AB7000E86054 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BFBFBC928058C14007B2DB8 /* RulerOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerOptionsView.swift; sourceTree = "<group>"; };
+		6BFBFBCB28059852007B2DB8 /* RulerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerSettingsView.swift; sourceTree = "<group>"; };
+		6BFBFBCE2805ABC3007B2DB8 /* TemperatureOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureOptionsView.swift; sourceTree = "<group>"; };
+		6BFBFBD12805AC0D007B2DB8 /* TemperatureSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSettingsView.swift; sourceTree = "<group>"; };
+		6BFBFBD32805AC53007B2DB8 /* ClockOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockOptionsView.swift; sourceTree = "<group>"; };
+		6BFBFBD52805AC8A007B2DB8 /* ClockSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockSettingsView.swift; sourceTree = "<group>"; };
+		6BFBFBD82805ACEF007B2DB8 /* DropOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropOptionsView.swift; sourceTree = "<group>"; };
+		6BFBFBDA2805AD1E007B2DB8 /* DropSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				6B48915F2804AB6E00E86054 /* IConvert2 */,
+				6B4891642804AB7000E86054 /* Assets.xcassets */,
 				6B48915E2804AB6E00E86054 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +70,10 @@
 			children = (
 				6B4891602804AB6E00E86054 /* IConvert2App.swift */,
 				6B4891622804AB6E00E86054 /* ContentView.swift */,
-				6B4891642804AB7000E86054 /* Assets.xcassets */,
+				6BFBFBCD2805985C007B2DB8 /* Ruler */,
+				6BFBFBD02805ABC7007B2DB8 /* Temperature */,
+				6BFBFBD72805ACAD007B2DB8 /* Clock */,
+				6BFBFBDC2805AD41007B2DB8 /* Drop */,
 				6B4891662804AB7000E86054 /* Preview Content */,
 			);
 			path = IConvert2;
@@ -65,6 +85,42 @@
 				6B4891672804AB7000E86054 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BFBFBCD2805985C007B2DB8 /* Ruler */ = {
+			isa = PBXGroup;
+			children = (
+				6BFBFBC928058C14007B2DB8 /* RulerOptionsView.swift */,
+				6BFBFBCB28059852007B2DB8 /* RulerSettingsView.swift */,
+			);
+			path = Ruler;
+			sourceTree = "<group>";
+		};
+		6BFBFBD02805ABC7007B2DB8 /* Temperature */ = {
+			isa = PBXGroup;
+			children = (
+				6BFBFBCE2805ABC3007B2DB8 /* TemperatureOptionsView.swift */,
+				6BFBFBD12805AC0D007B2DB8 /* TemperatureSettingsView.swift */,
+			);
+			path = Temperature;
+			sourceTree = "<group>";
+		};
+		6BFBFBD72805ACAD007B2DB8 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				6BFBFBD32805AC53007B2DB8 /* ClockOptionsView.swift */,
+				6BFBFBD52805AC8A007B2DB8 /* ClockSettingsView.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		6BFBFBDC2805AD41007B2DB8 /* Drop */ = {
+			isa = PBXGroup;
+			children = (
+				6BFBFBD82805ACEF007B2DB8 /* DropOptionsView.swift */,
+				6BFBFBDA2805AD1E007B2DB8 /* DropSettingsView.swift */,
+			);
+			path = Drop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFBFBCF2805ABC3007B2DB8 /* TemperatureOptionsView.swift in Sources */,
+				6BFBFBCC28059852007B2DB8 /* RulerSettingsView.swift in Sources */,
+				6BFBFBD62805AC8A007B2DB8 /* ClockSettingsView.swift in Sources */,
 				6B4891632804AB6E00E86054 /* ContentView.swift in Sources */,
+				6BFBFBD92805ACEF007B2DB8 /* DropOptionsView.swift in Sources */,
+				6BFBFBCA28058C14007B2DB8 /* RulerOptionsView.swift in Sources */,
+				6BFBFBD22805AC0D007B2DB8 /* TemperatureSettingsView.swift in Sources */,
+				6BFBFBD42805AC53007B2DB8 /* ClockOptionsView.swift in Sources */,
+				6BFBFBDB2805AD1E007B2DB8 /* DropSettingsView.swift in Sources */,
 				6B4891612804AB6E00E86054 /* IConvert2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
