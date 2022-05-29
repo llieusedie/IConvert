@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct RulerOptionsView: View {
+struct RulerOptionsView: View{
     
     @FocusState private var userValueIsFocused: Bool //Checks if user tap textField to show/hide keyboard
     @State private var userOption = 0.0             // User wrote number
@@ -74,7 +74,6 @@ struct RulerOptionsView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-                
             } header: {
                 Text("Choose your input")
             }

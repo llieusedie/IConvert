@@ -13,6 +13,7 @@ struct RulerSettingsView: View {
         Form {
             Section {
                 Text("Settings")
+                
             }
         }
     }
