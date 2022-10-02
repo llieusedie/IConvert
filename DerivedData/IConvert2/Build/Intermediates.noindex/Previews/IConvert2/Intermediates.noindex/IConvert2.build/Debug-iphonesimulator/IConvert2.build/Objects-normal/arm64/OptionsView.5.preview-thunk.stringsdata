@@ -1,0 +1,32 @@
+{
+  "source": "/Users/paulkirnoz/Library/Mobile Documents/com~apple~CloudDocs/Desktop/important personal/app development/IConvert/DerivedData/IConvert2/Build/Intermediates.noindex/Previews/IConvert2/Intermediates.noindex/IConvert2.build/Debug-iphonesimulator/IConvert2.build/Objects-normal/arm64/OptionsView.5.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "IConvert: Lengths"
+      },
+      {
+        "comment": "",
+        "key": "What is your input?"
+      },
+      {
+        "comment": "",
+        "key": "Choose your input"
+      },
+      {
+        "comment": "",
+        "key": "Your number"
+      },
+      {
+        "comment": "",
+        "key": "What is your output?"
+      },
+      {
+        "comment": "",
+        "key": "Choose your output"
+      }
+    ]
+  },
+  "version": 1
+}

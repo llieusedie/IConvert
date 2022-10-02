@@ -10,23 +10,21 @@ import SwiftUI
 struct TemperatureButton: View {
     
     var body: some View {
-        Button(action: {})
-        {
-            NavigationLink(destination: TemperatureOptionsView(), label: {
-                ZStack {
+        NavigationLink(destination: TemperatureOptionsView(), label: {
+            Image(systemName: "thermometer")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 120, height: 120, alignment: .center)
+                .foregroundStyle(Color("darkMode-Details"))
+                .background(
                     RoundedRectangle(cornerRadius: 25)
                         .frame(width: 150, height: 150)
-                        .foregroundColor(.white)
-                        .shadow(radius: 10)
+                        .foregroundColor(Color("strong"))
+                        .shadow(color: .gray, radius: 10)
                         .padding()
-                    
-                    Image(systemName: "thermometer")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 140, height: 140, alignment: .center)
-                        .foregroundColor(.black)
-                }
-            })
-        }
+                )
+                .padding(30)
+                
+        })
     }
 }
