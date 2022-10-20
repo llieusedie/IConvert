@@ -4,7 +4,7 @@ Extended and optimized version of the ["Challenge 1"](https://www.hackingwithswi
 The "extension" means more convertible **Units**, **Parent-Child Views** relations within **NavigationView** and more!
 
 In the final build, I've used my knowledge of: 
-⋅⋅* **MVVM** and data structuring;
-⋅⋅* **Measurement** and **Unit** classes;
-⋅⋅* **Dynamic** views creation; 
-⋅⋅* **Dark / Light** modes support;
+– **MVVM** and data structuring;
+– **Measurement** and **Unit** classes;
+– **Dynamic** views creation; 
+– **Dark / Light** modes support;
