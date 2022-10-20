@@ -232,7 +232,7 @@ class ViewModel: ObservableObject {
         guard let input = Double(self.input) else {
             return 0
         }
-        guard let inputUnit = Volume(rawValue: volumeUnits[self.outputUnit]) else {
+        guard let inputUnit = Volume(rawValue: volumeUnits[self.inputUnit]) else {
             return 0
         }
         guard let outputUnit = Volume(rawValue: volumeUnits[self.outputUnit]) else {
