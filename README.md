@@ -13,5 +13,5 @@ In the final build, I've used my knowledge of:
 
 – **Dark / Light** modes support;
 
-#GIF Example
+# GIF Example
 ![](https://github.com/llieusedie/IConvert/blob/main/iConvert-Media.gif)
